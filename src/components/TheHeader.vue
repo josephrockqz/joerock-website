@@ -56,17 +56,17 @@ export default {
       type: Boolean
     }
   },
-  data() {
+  data () {
     return {
       drawer: null
-    };
+    }
   },
   methods: {
-    changeTheme() {
-      this.$emit("changeTheme", this.goDark);
+    changeTheme () {
+      this.$emit('changeTheme', this.goDark)
     }
   }
-};
+}
 </script>
 
 <style >

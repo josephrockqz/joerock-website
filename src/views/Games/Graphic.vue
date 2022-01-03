@@ -35,59 +35,59 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       dialog: false,
       images: [
         {
           dialog: false,
-          title: "VilaShirts Logo",
-          poster: "https://i.imgur.com/QEnmqcE.png"
+          title: 'VilaShirts Logo',
+          poster: 'https://i.imgur.com/QEnmqcE.png'
         },
         {
           dialog: false,
-          title: "BlackBird Property Group Logo",
-          poster: "https://i.imgur.com/b37FfUU.jpg"
+          title: 'BlackBird Property Group Logo',
+          poster: 'https://i.imgur.com/b37FfUU.jpg'
         },
         {
           dialog: false,
-          title: "TeeLock Consulting Logo",
-          poster: "https://i.imgur.com/XSo4bmw.jpg"
+          title: 'TeeLock Consulting Logo',
+          poster: 'https://i.imgur.com/XSo4bmw.jpg'
         },
         {
           dialog: false,
-          title: "SEA||WA||MMXI",
-          poster: "https://i.imgur.com/thxUnTH.jpg"
+          title: 'SEA||WA||MMXI',
+          poster: 'https://i.imgur.com/thxUnTH.jpg'
         },
         {
           dialog: false,
-          title: "Alpine365 Logo",
-          poster: "https://i.imgur.com/LOzW21e.jpg"
+          title: 'Alpine365 Logo',
+          poster: 'https://i.imgur.com/LOzW21e.jpg'
         },
         {
           dialog: false,
-          title: "Josefine Product Pack",
-          poster: "https://i.imgur.com/TrthgRN.jpg"
+          title: 'Josefine Product Pack',
+          poster: 'https://i.imgur.com/TrthgRN.jpg'
         },
         {
           dialog: false,
-          title: "Next Party Flayer",
-          poster: "https://i.imgur.com/tYjfL2d.jpg"
+          title: 'Next Party Flayer',
+          poster: 'https://i.imgur.com/tYjfL2d.jpg'
         },
         {
           dialog: false,
-          title: "VilaShirts T-Shirts",
-          poster: "https://i.imgur.com/ULuRuFB.jpg"
+          title: 'VilaShirts T-Shirts',
+          poster: 'https://i.imgur.com/ULuRuFB.jpg'
         },
         {
           dialog: false,
-          title: "BAB Coin",
-          poster: "https://i.imgur.com/YU52AVB.jpg"
+          title: 'BAB Coin',
+          poster: 'https://i.imgur.com/YU52AVB.jpg'
         }
       ]
-    };
+    }
   }
-};
+}
 </script>
 
 <style  scoped>

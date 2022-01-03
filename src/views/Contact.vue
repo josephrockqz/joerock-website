@@ -81,35 +81,35 @@
 </template>
 
 <script>
-import { validationMixin } from "vuelidate";
+import { validationMixin } from 'vuelidate'
 import {
   required,
   maxLength,
   email,
   minLength
-} from "vuelidate/lib/validators";
+} from 'vuelidate/lib/validators'
 export default {
   metaInfo: {
-    title: "Contact",
+    title: 'Contact',
     titleTemplate: "%s ← Eldin's Space",
     meta: [
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        name: "description",
+        name: 'description',
         content:
           "Eldin Zaimovic's Contact Doboj Bosnia and Herzegovina Freelance Get in Touch ContactMe"
       },
-      { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
-      { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
+      { charset: 'utf-8' },
+      { property: 'og:title', content: "Eldin' Space" },
+      { property: 'og:site_name', content: "Eldin' Space" },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:url', content: 'https://eldin.space' },
       {
-        property: "og:image",
-        content: "https://i.imgur.com/Dcz2PGx.jpg"
+        property: 'og:image',
+        content: 'https://i.imgur.com/Dcz2PGx.jpg'
       },
       {
-        property: "og:description",
+        property: 'og:description',
         content:
           "Eldin Zaimovic's Contact Doboj Bosnia and Herzegovina Freelance Get in Touch ContactMe"
       }
@@ -121,50 +121,50 @@ export default {
     email: { required, email },
     body: { required, minLength: minLength(20) }
   },
-  data() {
+  data () {
     return {
-      name: "",
-      email: "",
-      body: ""
-    };
+      name: '',
+      email: '',
+      body: ''
+    }
   },
   methods: {
-    submit() {
-      this.$v.$touch();
+    submit () {
+      this.$v.$touch()
     },
-    clear() {
-      this.$v.$reset();
-      this.name = "";
-      this.email = "";
-      this.body = "";
+    clear () {
+      this.$v.$reset()
+      this.name = ''
+      this.email = ''
+      this.body = ''
     }
   },
   computed: {
-    nameErrors() {
-      const errors = [];
-      if (!this.$v.name.$dirty) return errors;
+    nameErrors () {
+      const errors = []
+      if (!this.$v.name.$dirty) return errors
       !this.$v.name.maxLength &&
-        errors.push("Name must be at most 20 characters long");
-      !this.$v.name.required && errors.push("Name is required.");
-      return errors;
+        errors.push('Name must be at most 20 characters long')
+      !this.$v.name.required && errors.push('Name is required.')
+      return errors
     },
-    emailErrors() {
-      const errors = [];
-      if (!this.$v.email.$dirty) return errors;
-      !this.$v.email.email && errors.push("Must be valid e-mail");
-      !this.$v.email.required && errors.push("E-mail is required");
-      return errors;
+    emailErrors () {
+      const errors = []
+      if (!this.$v.email.$dirty) return errors
+      !this.$v.email.email && errors.push('Must be valid e-mail')
+      !this.$v.email.required && errors.push('E-mail is required')
+      return errors
     },
-    bodyErrors() {
-      const errors = [];
-      if (!this.$v.body.$dirty) return errors;
+    bodyErrors () {
+      const errors = []
+      if (!this.$v.body.$dirty) return errors
       !this.$v.body.minLength &&
-        errors.push("Text must be at least 20 characters long");
-      !this.$v.body.required && errors.push("Text is required");
-      return errors;
+        errors.push('Text must be at least 20 characters long')
+      !this.$v.body.required && errors.push('Text is required')
+      return errors
     }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>

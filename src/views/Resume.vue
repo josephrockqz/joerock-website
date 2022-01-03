@@ -136,7 +136,7 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       value: 0,
       buffer1: 0,
@@ -147,30 +147,29 @@ export default {
       buffer6: 0,
       bufferValue: 100,
       interval: 0
-    };
+    }
   },
-  mounted() {
-    this.startBuffer();
+  mounted () {
+    this.startBuffer()
   },
 
-  beforeDestroy() {
-    clearInterval(this.interval);
+  beforeDestroy () {
+    clearInterval(this.interval)
   },
 
   methods: {
-    startBuffer() {
+    startBuffer () {
       this.interval = setInterval(() => {
-        this.buffer1 = 90;
-        this.buffer2 = 85;
-        this.buffer3 = 80;
-        this.buffer4 = 80;
-        this.buffer5 = 90;
-        this.buffer6 = 70;
-      }, 800);
+        this.buffer1 = 90
+        this.buffer2 = 85
+        this.buffer3 = 80
+        this.buffer4 = 80
+        this.buffer5 = 90
+        this.buffer6 = 70
+      }, 800)
     }
   }
-};
+}
 </script>
 <style >
 </style>
-

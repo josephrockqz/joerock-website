@@ -22,26 +22,26 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       portfolios: [
         {
-          src: "https://i.imgur.com/GvTt5GG.png",
-          title: "Web"
+          src: 'https://i.imgur.com/GvTt5GG.png',
+          title: 'Web'
         },
 
         {
-          src: "https://i.imgur.com/wXLtLKy.png",
-          title: "Video"
+          src: 'https://i.imgur.com/wXLtLKy.png',
+          title: 'Video'
         },
         {
-          src: "https://i.imgur.com/g74mGuU.png",
-          title: "Graphic"
+          src: 'https://i.imgur.com/g74mGuU.png',
+          title: 'Graphic'
         }
       ]
-    };
+    }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>

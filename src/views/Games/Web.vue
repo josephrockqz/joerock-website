@@ -52,131 +52,131 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       dialog: false,
       projects: [
-         {
+        {
           dialog: false,
-          title: "Euphoric Voyage",
-          git: "https://github.com/EldinZaimovic/euphoric-voyage",
-          demo: "https://www.euphoric-voyage.com/",
+          title: 'Euphoric Voyage',
+          git: 'https://github.com/EldinZaimovic/euphoric-voyage',
+          demo: 'https://www.euphoric-voyage.com/',
           tech: {
-            tech1: "Gatsby",
-            tech2: "JavaScript",
-            tech3: "SCSS",
-            tech4: "Markdown"
+            tech1: 'Gatsby',
+            tech2: 'JavaScript',
+            tech3: 'SCSS',
+            tech4: 'Markdown'
           },
-          poster: "https://i.imgur.com/9Ww2bvm.png"
+          poster: 'https://i.imgur.com/9Ww2bvm.png'
         },
         {
           dialog: false,
-          title: "This Site",
-          git: "https://github.com/EldinZaimovic/Eldin-Space-Vue",
-          demo: "https://eldin.space/",
+          title: 'This Site',
+          git: 'https://github.com/EldinZaimovic/Eldin-Space-Vue',
+          demo: 'https://eldin.space/',
           tech: {
-            tech1: "VUE",
-            tech2: "Storyblok",
-            tech3: "HTML",
-            tech4: "JavaScript"
+            tech1: 'VUE',
+            tech2: 'Storyblok',
+            tech3: 'HTML',
+            tech4: 'JavaScript'
           },
-          poster: "https://i.imgur.com/sGUofpv.png"
+          poster: 'https://i.imgur.com/sGUofpv.png'
         },
         {
           dialog: false,
-          title: "Frontend Developer at Brandly.com",
-          git: "https://cdn.neow.in/news/images/uploaded/2018/11/1543476286_cybersecurity.jpg",
-          demo: "https://www.brandly.com/",
+          title: 'Frontend Developer at Brandly.com',
+          git: 'https://cdn.neow.in/news/images/uploaded/2018/11/1543476286_cybersecurity.jpg',
+          demo: 'https://www.brandly.com/',
           tech: {
-            tech1: "VUE",
-            tech2: "SCSS",
-            tech3: "HTML",
-            tech4: "JavaScript"
+            tech1: 'VUE',
+            tech2: 'SCSS',
+            tech3: 'HTML',
+            tech4: 'JavaScript'
           },
-          poster: "https://i.imgur.com/nVqtTAf.png"
+          poster: 'https://i.imgur.com/nVqtTAf.png'
         },
         {
           dialog: false,
-          title: "Digital Madness Test",
-          git: "https://github.com/EldinZaimovic/Digital-Madness-test",
-          demo: "https://digital-madness-test.netlify.com/",
+          title: 'Digital Madness Test',
+          git: 'https://github.com/EldinZaimovic/Digital-Madness-test',
+          demo: 'https://digital-madness-test.netlify.com/',
           tech: {
-            tech1: "VUE",
-            tech2: "CSS",
-            tech3: "HTML",
-            tech4: "JavaScript"
+            tech1: 'VUE',
+            tech2: 'CSS',
+            tech3: 'HTML',
+            tech4: 'JavaScript'
           },
-          poster: "https://i.imgur.com/GOIIL06.png"
+          poster: 'https://i.imgur.com/GOIIL06.png'
         },
         {
           dialog: false,
-          title: "Snowball Coding Challenge",
-          git: "https://github.com/EldinZaimovic/SnowBall-Project",
-          demo: "https://snowball-test.netlify.com/",
+          title: 'Snowball Coding Challenge',
+          git: 'https://github.com/EldinZaimovic/SnowBall-Project',
+          demo: 'https://snowball-test.netlify.com/',
           tech: {
-            tech1: "VUE",
-            tech2: "GraphQL",
-            tech3: "Axios",
-            tech4: "JavaScript"
+            tech1: 'VUE',
+            tech2: 'GraphQL',
+            tech3: 'Axios',
+            tech4: 'JavaScript'
           },
-          poster: "https://i.imgur.com/rXHBs36.png"
+          poster: 'https://i.imgur.com/rXHBs36.png'
         },
         {
           dialog: false,
-          title: "IBM Coding Challenge - Films Location",
-          git: "https://github.com/EldinZaimovic/Film-Location-List",
-          demo: "https://film-location-ibm-cc.netlify.com/",
+          title: 'IBM Coding Challenge - Films Location',
+          git: 'https://github.com/EldinZaimovic/Film-Location-List',
+          demo: 'https://film-location-ibm-cc.netlify.com/',
           tech: {
-            tech1: "VUE",
-            tech2: "Lodash",
-            tech3: "HTML",
-            tech4: "JavaScript"
+            tech1: 'VUE',
+            tech2: 'Lodash',
+            tech3: 'HTML',
+            tech4: 'JavaScript'
           },
-          poster: "https://i.imgur.com/kCN1CFH.png"
+          poster: 'https://i.imgur.com/kCN1CFH.png'
         },
         {
           dialog: false,
-          title: "Stock Trader",
-          git: "https://github.com/EldinZaimovic/Stock-Trader",
-          demo: "https://stock-trader-eldin.netlify.com/",
+          title: 'Stock Trader',
+          git: 'https://github.com/EldinZaimovic/Stock-Trader',
+          demo: 'https://stock-trader-eldin.netlify.com/',
           tech: {
-            tech1: "VUE",
-            tech2: "Vuex",
-            tech3: "Firebase",
-            tech4: "JavaScript"
+            tech1: 'VUE',
+            tech2: 'Vuex',
+            tech3: 'Firebase',
+            tech4: 'JavaScript'
           },
-          poster: "https://i.imgur.com/wK5dqP7.png"
+          poster: 'https://i.imgur.com/wK5dqP7.png'
         },
         {
           dialog: false,
-          title: "Riders Share Newsleter",
-          git: "",
-          demo: "https://imgur.com/zTMJhGk",
+          title: 'Riders Share Newsleter',
+          git: '',
+          demo: 'https://imgur.com/zTMJhGk',
           tech: {
-            tech1: "HTML",
-            tech2: "CSS",
-            tech3: "MailChimp",
-            tech4: "JavaScript"
+            tech1: 'HTML',
+            tech2: 'CSS',
+            tech3: 'MailChimp',
+            tech4: 'JavaScript'
           },
-          poster: "https://i.imgur.com/zTMJhGk.jpg"
+          poster: 'https://i.imgur.com/zTMJhGk.jpg'
         },
         {
           dialog: false,
-          title: "My Old Web Portfolio",
-          git: "https://github.com/EldinZaimovic/EldinZaimovic.github.io",
-          demo: "https://eldinzaimovic.github.io/index.html",
+          title: 'My Old Web Portfolio',
+          git: 'https://github.com/EldinZaimovic/EldinZaimovic.github.io',
+          demo: 'https://eldinzaimovic.github.io/index.html',
           tech: {
-            tech1: "HTML",
-            tech2: "CSS",
-            tech3: "JavaScript",
-            tech4: "jQuery"
+            tech1: 'HTML',
+            tech2: 'CSS',
+            tech3: 'JavaScript',
+            tech4: 'jQuery'
           },
-          poster: "https://i.imgur.com/AW7CXD5.jpg"
+          poster: 'https://i.imgur.com/AW7CXD5.jpg'
         }
       ]
-    };
+    }
   }
-};
+}
 </script>
 
 <style  scoped>

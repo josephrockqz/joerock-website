@@ -19,25 +19,25 @@
 </template>
 
 <script>
-import TheHeader from "./components/TheHeader";
-import TheFooter from "./components/TheFooter";
+import TheHeader from './components/TheHeader'
+import TheFooter from './components/TheFooter'
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     TheHeader,
     TheFooter
   },
-  data() {
-    return { goDark: false };
+  data () {
+    return { goDark: false }
   },
   methods: {
-    updateTheme(updatedTheme) {
-      this.goDark = !updatedTheme;
+    updateTheme (updatedTheme) {
+      this.goDark = !updatedTheme
     }
   }
-};
+}
 </script>
 <style>
-@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
 </style>
