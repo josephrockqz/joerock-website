@@ -1,18 +1,16 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
-import Meta from 'vue-meta'
+import Landing from "./views/Landing.vue";
 
 Vue.use(Router);
-Vue.use(Meta)
 
 export default new Router({
   mode: "history",
   base: process.env.BASE_URL,
   routes: [{
       path: "/",
-      name: "home",
-      component: Home
+      name: "landing",
+      component: Landing
     },
     {
       path: "/contact",
@@ -27,46 +25,28 @@ export default new Router({
         import( /* webpackChunkName: "about" */ "./views/Resume.vue")
     },
     {
-      path: "/blog",
-      name: "blog",
+      path: "/games",
+      name: "games",
       component: () =>
-        import( /* webpackChunkName: "about" */ "./views/Blog.vue")
+        import( /* webpackChunkName: "about" */ "./views/Games/Games.vue")
     },
     {
-      path: "/blog/:id",
-      name: "blogPost",
+      path: "/games/video",
+      name: "videoGames",
       component: () =>
-        import( /* webpackChunkName: "about" */ "./views/BlogPost.vue")
+        import( /* webpackChunkName: "about" */ "./views/Games/Video.vue")
     },
     {
-      path: "/services",
-      name: "services",
+      path: "/games/graphic",
+      name: "graphicGames",
       component: () =>
-        import( /* webpackChunkName: "about" */ "./views/Services.vue")
+        import( /* webpackChunkName: "about" */ "./views/Games/Graphic.vue")
     },
     {
-      path: "/portfolio",
-      name: "portfolio",
+      path: "/games/web",
+      name: "webGames",
       component: () =>
-        import( /* webpackChunkName: "about" */ "./views/Portfolio/Portfolio.vue")
-    },
-    {
-      path: "/portfolio/video",
-      name: "videoPortfolio",
-      component: () =>
-        import( /* webpackChunkName: "about" */ "./views/Portfolio/Video.vue")
-    },
-    {
-      path: "/portfolio/graphic",
-      name: "graphicPortfolio",
-      component: () =>
-        import( /* webpackChunkName: "about" */ "./views/Portfolio/Graphic.vue")
-    },
-    {
-      path: "/portfolio/web",
-      name: "webPortfolio",
-      component: () =>
-        import( /* webpackChunkName: "about" */ "./views/Portfolio/Web.vue")
+        import( /* webpackChunkName: "about" */ "./views/Games/Web.vue")
     },
     {
       path: "*",
