@@ -28,25 +28,7 @@ export default new Router({
     path: '/games',
     name: 'games',
     component: () =>
-        import(/* webpackChunkName: "about" */ './views/Games/Games.vue')
-  },
-  {
-    path: '/games/video',
-    name: 'videoGames',
-    component: () =>
-        import(/* webpackChunkName: "about" */ './views/Games/Video.vue')
-  },
-  {
-    path: '/games/graphic',
-    name: 'graphicGames',
-    component: () =>
-        import(/* webpackChunkName: "about" */ './views/Games/Graphic.vue')
-  },
-  {
-    path: '/games/web',
-    name: 'webGames',
-    component: () =>
-        import(/* webpackChunkName: "about" */ './views/Games/Web.vue')
+        import(/* webpackChunkName: "about" */ './views/Games.vue')
   },
   {
     path: '*',
