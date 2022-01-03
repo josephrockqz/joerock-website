@@ -1,0 +1,2 @@
+- have footer go to left
+- change contact page
