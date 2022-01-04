@@ -1,29 +1,29 @@
 <template>
   <div>
-    <!-- <v-navigation-drawer v-model="drawer" absolute temporary app width="150" height="340">
+    <v-navigation-drawer v-model="drawer" absolute temporary app width="150" height="340">
       <v-list class="pt-4">
         <v-list-tile active-class="blue--text" to="/">
           <v-list-tile-content>
             <v-list-tile-title>LANDING</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
-        <v-list-tile active-class="green--text" to="/resume">
+        <v-list-tile active-class="blue--text" to="/resume">
           <v-list-tile-content>
             <v-list-tile-title>RESUME</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
-        <v-list-tile active-class="green--text" to="/portfolio">
+        <v-list-tile active-class="blue--text" to="/games">
           <v-list-tile-content>
             <v-list-tile-title>GAMES</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
-        <v-list-tile active-class="green--text" to="/contact">
+        <v-list-tile active-class="blue--text" to="/contact">
           <v-list-tile-content>
             <v-list-tile-title>CONTACT</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
       </v-list>
-    </v-navigation-drawer> -->
+    </v-navigation-drawer>
     <v-toolbar flat dense color="transparent" scroll-off-screen>
       <v-toolbar-side-icon class="hidden-md-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-title class="headline">
