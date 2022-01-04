@@ -1,25 +1,25 @@
 <template>
   <v-container grid-list-xl>
-    <v-layout row justify-center align-center wrap class="mt-4 pt-2">
+    <v-layout row justify-center wrap class="mt-4 pt-2">
       <v-flex xs12 sm12 md6 lg6 xl6>
         <h2 class="pb-4 mt-2">
           <span>Contact </span>
           <span style="color: #CD7F32">Info</span>
         </h2>
         <div class="py-4 subheading font-weight-bold">
-          <v-icon large color="#CD7F32" left>fas fa-map-marker-alt</v-icon>
+          <v-icon large color="blue" left>fas fa-map-marker-alt</v-icon>
           <span>Virginia,&nbsp;</span>
-          <span class="blue--text">United States</span>
+          <span>United States</span>
         </div>
         <div class="py-4 subheading font-weight-bold">
-          <v-icon large color="#CD7F32" left>fas fa-envelope</v-icon>
+          <v-icon large color="blue" left>fas fa-envelope</v-icon>
           <span>josephrockqz@</span>
-          <span class="blue--text">gmail.com</span>
+          <span>gmail.com</span>
         </div>
         <div class="py-4 subheading font-weight-bold">
-          <v-icon large color="#CD7F32" left>fas fa-check</v-icon>
+          <v-icon large color="blue" left>fas fa-check</v-icon>
           <span>Always </span>
-          <span class="blue--text">Available</span>
+          <span>Available</span>
         </div>
       </v-flex>
 
@@ -29,10 +29,10 @@
           <span style="color: #CD7F32">Form</span>
         </h2>
 
-        <form method="POST" action="https://formspree.io/eldin@zaimovic.com">
+        <form method="POST" action="https://formspree.io/f/xzbozjgv">
           <v-text-field
             name="name"
-            color="green"
+            color="blue"
             background-color="transparent"
             v-model="name"
             :error-messages="nameErrors"
@@ -42,7 +42,7 @@
           ></v-text-field>
           <v-text-field
             type="email"
-            color="green"
+            color="blue"
             background-color="transparent"
             name="email"
             v-model="email"
@@ -52,7 +52,7 @@
             @blur="$v.email.$touch()"
           ></v-text-field>
           <v-textarea
-            color="green"
+            color="blue"
             background-color="transparent"
             :counter="200"
             :error-messages="bodyErrors"
@@ -64,9 +64,9 @@
           <v-btn
             @click="submit"
             type="submit"
-            color="green"
+            color="blue"
             class="white--text"
-            :disabled=" (body.length<=20)"
+            :disabled=" (body.length<=16)"
           >SEND MESSAGE</v-btn>
           <v-btn @click="clear">clear</v-btn>
         </form>
@@ -84,32 +84,6 @@ import {
   minLength
 } from 'vuelidate/lib/validators'
 export default {
-  metaInfo: {
-    title: 'Contact',
-    titleTemplate: "%s ← Eldin's Space",
-    meta: [
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        name: 'description',
-        content:
-          "Eldin Zaimovic's Contact Doboj Bosnia and Herzegovina Freelance Get in Touch ContactMe"
-      },
-      { charset: 'utf-8' },
-      { property: 'og:title', content: "Eldin' Space" },
-      { property: 'og:site_name', content: "Eldin' Space" },
-      { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: 'https://eldin.space' },
-      {
-        property: 'og:image',
-        content: 'https://i.imgur.com/Dcz2PGx.jpg'
-      },
-      {
-        property: 'og:description',
-        content:
-          "Eldin Zaimovic's Contact Doboj Bosnia and Herzegovina Freelance Get in Touch ContactMe"
-      }
-    ]
-  },
   mixins: [validationMixin],
   validations: {
     name: { required, maxLength: maxLength(20) },
@@ -139,7 +113,7 @@ export default {
       const errors = []
       if (!this.$v.name.$dirty) return errors
       !this.$v.name.maxLength &&
-        errors.push('Name must be at most 20 characters long')
+        errors.push('Name must be at most 16 characters long')
       !this.$v.name.required && errors.push('Name is required.')
       return errors
     },
