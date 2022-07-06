@@ -2,6 +2,5 @@ Consider recentering graphics on resume view
     Make fixed width?
 Add landmarker to games view
     Seperate Games into two sections: React and Vue
-Add React as a skill in the resume page
 
 Update resume

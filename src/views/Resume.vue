@@ -67,7 +67,7 @@
     <v-layout row justify-center align-center wrap class="mt-4 pt-2">
       <v-flex xs12 sm12 md4 lg5 xl5 class="mx-2 pt-4">
         <h2>
-          <span>Software</span>
+          <span>Development</span>
 
           <span style="color: #CD7F32;">Skills</span>
         </h2>
@@ -80,6 +80,8 @@
         <v-progress-linear v-model="buffer3" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
         <strong>MongoDB</strong>
         <v-progress-linear v-model="buffer4" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
+        <strong>Nginx</strong>
+        <v-progress-linear v-model="buffer5" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
       </v-flex>
       <v-flex xs12 sm12 md4 lg5 xl5 class="mx-2 pt-4">
         <h2>
@@ -87,14 +89,16 @@
           <span style="color: #CD7F32;">Skills</span>
         </h2>
         <br>
-        <strong>HTML/CSS</strong>
-        <v-progress-linear v-model="buffer5" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
         <strong>Python</strong>
         <v-progress-linear v-model="buffer6" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
         <strong>TypeScript</strong>
         <v-progress-linear v-model="buffer7" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
-        <strong>Vue.js/Node.js</strong>
+        <strong>Vue</strong>
         <v-progress-linear v-model="buffer8" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
+        <strong>React</strong>
+        <v-progress-linear v-model="buffer9" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
+        <strong>Node</strong>
+        <v-progress-linear v-model="buffer10" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
       </v-flex>
       <div class="mt-4 pt-2 pb-2">
         <v-btn
@@ -125,6 +129,8 @@ export default {
       buffer6: 0,
       buffer7: 0,
       buffer8: 0,
+      buffer9: 0,
+      buffer10: 0,
       bufferValue: 100,
       interval: 0
     }
@@ -144,10 +150,12 @@ export default {
         this.buffer2 = 70
         this.buffer3 = 75
         this.buffer4 = 65
-        this.buffer5 = 70
+        this.buffer5 = 75
         this.buffer6 = 82
-        this.buffer7 = 65
+        this.buffer7 = 70
         this.buffer8 = 86
+        this.buffer9 = 73
+        this.buffer10 = 76
       }, 800)
     }
   }
