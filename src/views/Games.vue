@@ -7,9 +7,9 @@
           hover
           flat
           color="transparent"
-          height="230"
+          height="251"
         >
-          <v-card-title></v-card-title>
+          <v-card-title>Developed with&nbsp;<span style="color: rgb(205, 127, 50);">{{game.framework}}</span></v-card-title>
           <v-img :src="game.src" aspect-ratio="2.75" height="130" contain></v-img>
           <v-card-title primary-title class="justify-center">
             <v-flex text-xs-center subheading font-weight-bold>{{game.title}}</v-flex>
@@ -26,12 +26,20 @@ export default {
     return {
       games: [
         {
+          framework: 'React',
+          src: '/landmark.png',
+          title: 'Landmarker',
+          url: 'https://landmarkergame.com'
+        },
+        {
+          framework: 'Vue',
           src: '/mine.png',
           title: 'Speed Miner',
           url: 'https://speedminer.joerock.dev'
         },
 
         {
+          framework: 'Vue',
           src: '/blue2red.png',
           title: 'Blue2Red',
           url: 'https://blue2red.joerock.dev'
