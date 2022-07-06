@@ -96,7 +96,7 @@
         <strong>Vue.js/Node.js</strong>
         <v-progress-linear v-model="buffer8" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
       </v-flex>
-      <div class="mt-4 pt-2">
+      <div class="mt-4 pt-2 pb-2">
         <v-btn
           href="/resume_joseph_rock.pdf"
           target="_blank"
