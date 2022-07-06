@@ -29,9 +29,8 @@
               <span style="color: #CD7F32">Me</span>
             </h3>
             <div>
-                Hi. My name is Joseph Rock. I am currently studying computer science & mathematics at the University of Virginia. I am passionate about
-                software engineering and am hopeful to use my skills to make a positive impact on others. When I'm not programming I am usually at the gym,
-                playing golf, or trying new food.
+                Hi. My name is Joseph Rock. I am a software engineer and web developer. I hope to use my skills to make a positive impact on others.
+                When I'm not programming I am usually at the gym, playing golf, or spending time with family.
             </div>
           </div>
         </v-card-title>
