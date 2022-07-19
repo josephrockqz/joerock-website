@@ -100,9 +100,9 @@
         <strong>Node</strong>
         <v-progress-linear v-model="buffer10" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
       </v-flex>
-      <div class="mt-4 pt-2 pb-2">
+      <!-- <div class="mt-4 pt-2 pb-2">
         <v-btn
-          href="/resume_joseph_rock.pdf"
+          href="resume_joseph_rock.pdf"
           target="_blank"
           color="#CD7F32"
           dark
@@ -111,7 +111,7 @@
           Download Resume
           <v-icon right dark>fas fa-file-download</v-icon>
         </v-btn>
-      </div>
+      </div> -->
     </v-layout>
   </v-layout>
 </template>
