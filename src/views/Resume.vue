@@ -82,6 +82,8 @@
         <v-progress-linear v-model="buffer4" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
         <strong>Nginx</strong>
         <v-progress-linear v-model="buffer5" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
+        <strong>Splunk</strong>
+        <v-progress-linear v-model="buffer6" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
       </v-flex>
       <v-flex xs12 sm12 md4 lg5 xl5 class="mx-2 pt-4">
         <h2>
@@ -90,15 +92,17 @@
         </h2>
         <br>
         <strong>Python</strong>
-        <v-progress-linear v-model="buffer6" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
-        <strong>TypeScript</strong>
         <v-progress-linear v-model="buffer7" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
-        <strong>Vue</strong>
+        <strong>TypeScript</strong>
         <v-progress-linear v-model="buffer8" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
-        <strong>React</strong>
+        <strong>Vue</strong>
         <v-progress-linear v-model="buffer9" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
-        <strong>Node</strong>
+        <strong>React</strong>
         <v-progress-linear v-model="buffer10" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
+        <strong>Node</strong>
+        <v-progress-linear v-model="buffer11" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
+        <strong>Kotlin</strong>
+        <v-progress-linear v-model="buffer12" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
       </v-flex>
       <!-- <div class="mt-4 pt-2 pb-2">
         <v-btn
@@ -131,6 +135,8 @@ export default {
       buffer8: 0,
       buffer9: 0,
       buffer10: 0,
+      buffer11: 0,
+      buffer12: 0,
       bufferValue: 100,
       interval: 0
     }
@@ -151,11 +157,13 @@ export default {
         this.buffer3 = 75
         this.buffer4 = 65
         this.buffer5 = 75
-        this.buffer6 = 82
-        this.buffer7 = 70
-        this.buffer8 = 86
-        this.buffer9 = 73
-        this.buffer10 = 76
+        this.buffer6 = 72
+        this.buffer7 = 82
+        this.buffer8 = 70
+        this.buffer9 = 86
+        this.buffer10 = 73
+        this.buffer11 = 76
+        this.buffer12 = 84
       }, 800)
     }
   }
