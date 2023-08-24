@@ -1,7 +1,7 @@
 <template>
   <v-layout column justify-center align-center class="mt-4 pt-2">
 
-    <img src="../../public/headshot.jpg" style="width: 300px; height: auto; margin: auto; padding: 25px; border-radius: 50%; text-align: center;" class="w3-circle" />
+    <img src="../../public/headshot.jpeg" style="width: 300px; height: auto; margin: auto; padding: 25px; border-radius: 50%; text-align: center;" class="w3-circle" />
 
     <vue-typer class="headline" :repeat="0" text="Joseph Rock"></vue-typer>
     <vue-typer
