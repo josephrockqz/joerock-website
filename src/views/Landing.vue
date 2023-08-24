@@ -88,10 +88,6 @@ export default {
           href: 'https://www.linkedin.com/in/joseph-rock',
           icon: 'fab fa-linkedin-in'
         },
-        {
-          href: 'https://www.facebook.com/joseph.rock.372',
-          icon: 'fab fa-facebook-f'
-        },
         { href: 'https://www.instagram.com/joerock00', icon: 'fab fa-instagram' }
       ],
       text1: ['Software Engineer', 'Web Developer', 'Front-End Developer'],
