@@ -25,10 +25,10 @@ export default new Router({
         import(/* webpackChunkName: "about" */ './views/Resume.vue')
   },
   {
-    path: '/games',
-    name: 'games',
+    path: '/projects',
+    name: 'projects',
     component: () =>
-        import(/* webpackChunkName: "about" */ './views/Games.vue')
+        import(/* webpackChunkName: "about" */ './views/Projects.vue')
   },
   {
     path: '*',

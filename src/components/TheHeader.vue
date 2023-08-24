@@ -12,9 +12,9 @@
             <v-list-tile-title>RESUME</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
-        <v-list-tile active-class="blue--text" to="/games">
+        <v-list-tile active-class="blue--text" to="/projects">
           <v-list-tile-content>
-            <v-list-tile-title>GAMES</v-list-tile-title>
+            <v-list-tile-title>Projects</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile active-class="blue--text" to="/contact">
@@ -38,7 +38,7 @@
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn flat to="/" active-class="blue--text headline">LANDING</v-btn>
         <v-btn flat to="/resume" active-class="blue--text headline">RESUME</v-btn>
-        <v-btn flat to="/games" active-class="blue--text headline">GAMES</v-btn>
+        <v-btn flat to="/projects" active-class="blue--text headline">PROJECTS</v-btn>
         <v-btn flat to="/contact" active-class="blue--text headline">CONTACT</v-btn>
         <v-btn @click="changeTheme" depressed small icon>
           <v-icon v-if="goDark==true">fas fa-sun</v-icon>

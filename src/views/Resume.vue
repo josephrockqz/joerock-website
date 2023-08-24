@@ -163,7 +163,7 @@ export default {
         this.buffer9 = 86
         this.buffer10 = 73
         this.buffer11 = 76
-        this.buffer12 = 84
+        this.buffer12 = 88
       }, 800)
     }
   }
