@@ -119,7 +119,6 @@ export default {
 .vue-typer .custom.char.selected {
   color: blue;
 }
-
 .vue-typer .custom.caret {
   animation: 1s ease-in-out 0s infinite;
 }

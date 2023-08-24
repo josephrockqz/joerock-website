@@ -1,12 +1,12 @@
 <template>
   <v-container grid-list-xl>
     <v-layout row justify-center align-center wrap class="mt-4 pt-2">
-      <v-flex v-for="project in projects" :key="project.src" xs12 sm12 md4 lg4 xl4>
+      <v-flex v-for="project in projects" :key="project.src" xs12 sm12 md6 lg6 xl6>
         <v-card
           @click="openProject(project.url)"
           hover
           flat
-          color="transparent"
+          color="#2196f3"
           height="251"
         >
           <v-card-title>Developed with&nbsp;<span style="color: rgb(205, 127, 50);">{{project.framework}}</span></v-card-title>
@@ -26,6 +26,12 @@ export default {
     return {
       projects: [
         {
+          framework: 'Android',
+          src: '/art_thief_app_icon.png',
+          title: 'Art Thief',
+          url: 'https://play.google.com/store/apps/details?id=com.joerock.artthief'
+        },
+        {
           framework: 'React',
           src: '/landmark.png',
           title: 'Landmarker',
@@ -37,7 +43,6 @@ export default {
           title: 'Speed Miner',
           url: 'https://speedminer.joerock.dev'
         },
-
         {
           framework: 'Vue',
           src: '/blue2red.png',
