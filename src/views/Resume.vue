@@ -1,7 +1,7 @@
 <template>
   <v-layout row justify-center align-center wrap class="mt-4 pt-2">
     <v-flex xs12 sm12 md5 lg6 xl6 class="mt-4 pt-4">
-      <h2 class="mb-4 pl-4 pt-2">Education</h2>
+      <h2 class="mb-4 pl-4 pt-2">Learning</h2>
       <v-card-text class="py-0">
         <v-timeline align-top dense>
           <v-timeline-item color="#CD7F32" small>
@@ -21,11 +21,24 @@
             <v-layout pt-3>
               <v-flex xs4>
                 <div class="caption font-weight-bold blue--text">August 2018 -</div>
-                <div class="caption font-weight-bold blue--text">Present</div>
+                <div class="caption font-weight-bold blue--text">May 2022</div>
               </v-flex>
               <v-flex class="pl-2">
                 <strong>University of Virginia</strong>
                 <div class="caption mb-2">Computer Science & Mathematics</div>
+              </v-flex>
+            </v-layout>
+          </v-timeline-item>
+
+          <v-timeline-item color="#CD7F32" small>
+            <v-layout pt-3>
+              <v-flex xs4>
+                <div class="caption font-weight-bold blue--text">September 2023 -</div>
+                <div class="caption font-weight-bold blue--text">Present</div>
+              </v-flex>
+              <v-flex class="pl-2">
+                <strong>Amazon Web Services</strong>
+                <div class="caption mb-2">Solutions Architect - Associate</div>
               </v-flex>
             </v-layout>
           </v-timeline-item>
@@ -57,6 +70,19 @@
               </v-flex>
               <v-flex class="pl-2">
                 <strong>Technical Intern</strong>
+                <div class="caption mb-2">Capital One</div>
+              </v-flex>
+            </v-layout>
+          </v-timeline-item>
+
+          <v-timeline-item color="#CD7F32" small>
+            <v-layout pt-3>
+              <v-flex xs4>
+                <div class="caption font-weight-bold blue--text">August 2022 -</div>
+                <div class="caption font-weight-bold blue--text">Present</div>
+              </v-flex>
+              <v-flex class="pl-2">
+                <strong>Software Engineer</strong>
                 <div class="caption mb-2">Capital One</div>
               </v-flex>
             </v-layout>
@@ -152,12 +178,12 @@ export default {
   methods: {
     startBuffer () {
       this.interval = setInterval(() => {
-        this.buffer1 = 72
+        this.buffer1 = 81
         this.buffer2 = 70
         this.buffer3 = 75
         this.buffer4 = 65
         this.buffer5 = 75
-        this.buffer6 = 72
+        this.buffer6 = 77
         this.buffer7 = 82
         this.buffer8 = 70
         this.buffer9 = 86
