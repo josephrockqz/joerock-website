@@ -29,8 +29,8 @@
               <span style="color: #CD7F32">Me</span>
             </h3>
             <div>
-                Hi. My name is Joseph Rock. I am a software engineer and web developer. I hope to use my skills to make a positive impact on others.
-                When I'm not programming I am usually at the gym, playing golf, or spending time with family.
+                Hi. My name is Joseph Rock. I am a full stack software engineer hoping to use my skills to make a positive impact on others.
+                When I'm not programming, I play golf, spend time with family, and walk my dog.
             </div>
           </div>
         </v-card-title>

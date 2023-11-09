@@ -26,7 +26,7 @@
     </v-navigation-drawer>
     <v-toolbar flat dense color="transparent" scroll-off-screen>
       <v-toolbar-side-icon class="hidden-md-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-      <v-toolbar-title class="headline">
+      <v-toolbar-title class="headline" style="cursor: pointer" @click="$router.push('/')">
         <span class="font-weight-light">Joseph</span>
         <span style="color: #CD7F32">Rock</span>
       </v-toolbar-title>
